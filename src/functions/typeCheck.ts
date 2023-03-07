@@ -14,7 +14,7 @@ function typeCheck({
   expectedType,
   errorMessage,
 }: {
-  paramName: string;
+  paramName: any;
   expectedType: JsTypes;
   errorMessage?: any;
 }): void {
