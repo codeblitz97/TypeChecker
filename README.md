@@ -15,13 +15,13 @@ An advanced Type Checker that checks and handles type for the param name on your
 NPM:
 
 ```sh
-npm install @mohtasimalam/type-checker@latest
+npm install type-checker-handler
 ```
 
 Yarn:
 
 ```sh
-yarn add @mohtasimalam/type-checker@latest
+yarn add type-checker-handler
 ```
 
 ## 📝 How to use
@@ -32,7 +32,7 @@ Only 1-2 lines code
 Example usage (TypeScript):
 
 ```ts
-import { JsTypes, typeCheck } from "@mohtasimalam/type-checker";
+import { JsTypes, typeCheck } from "type-checker-handler";
 
 const aFunction = (msg: string, ...optional: any[]) => {
   typeCheck({ paramName: msg, expectedType: JsTypes.String });
@@ -53,7 +53,7 @@ If the user provided parameter type is not same as the function's required type 
 Example Usage (JavaScript):
 
 ```js
-const { JsTypes, typeCheckJs } = require("@mohtasimalam/type-checker");
+const { JsTypes, typeCheckJs } = require("type-checker-handler");
 
 const aFunction = (msg, ...optional) => {
   typeCheckJs({
