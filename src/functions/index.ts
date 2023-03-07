@@ -1,1 +1,1 @@
-export { typeCheck } from "./typeCheck";
+export { typeCheck, typeCheckFunc, typeCheckJs } from "./typeCheck";
