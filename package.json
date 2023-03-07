@@ -1,7 +1,7 @@
 {
-  "name": "@mohtasimalam/type-checker",
+  "name": "type-checker-handler",
   "version": "0.1.0",
-  "description": " An advanced Type Checker that checks and handles type for the param name on your function. (TypeScript Only)",
+  "description": " An advanced Type Checker that checks and handles type for the param name on your function.",
   "main": "out/index.js",
   "types": "out/index.d.ts",
   "scripts": {
