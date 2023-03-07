@@ -1,0 +1,46 @@
+{
+  "name": "@mohtasimalam/type-checker",
+  "version": "0.1.0",
+  "description": " An advanced Type Checker that checks and handles type for the param name on your function. (TypeScript Only)",
+  "main": "out/index.js",
+  "types": "out/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "out",
+    ".npmignore",
+    "README.md",
+    "LICENSE",
+    "out/index.js",
+    "out/index.d.ts"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sohom829/TypeChecker.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "TypeScript",
+    "Function",
+    "Module",
+    "Custom",
+    "Module",
+    "ES6",
+    "Advanced",
+    "Tool",
+    "Node",
+    "Module",
+    "Tool",
+    "Module",
+    "Type",
+    "Checker",
+    "TypeChecker"
+  ],
+  "author": "Mohtasim Alam Sohom",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sohom829/TypeChecker/issues"
+  },
+  "homepage": "https://github.com/Sohom829/TypeChecker#readme"
+}
